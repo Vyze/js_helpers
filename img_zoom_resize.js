@@ -18,11 +18,11 @@ $(window).load(function() {
         if ( (win.width() / win.height()) < aspectRatio ) {
             $bg
                 .removeClass()
-                .addClass('h0');
+                .addClass('height_100');
         } else {
             $bg
                 .removeClass()
-                .addClass('w0');
+                .addClass('width_100');
         }
     }
 
